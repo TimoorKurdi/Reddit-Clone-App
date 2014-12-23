@@ -20,40 +20,39 @@
 #logo {
   font-size: 26px;
   font-weight: 700;
-  text-transformation: uppercase;
+  text-transform: uppercase;
   letter-spacing: -1px;
   padding: 15px 0;
   a {
-    color: #2f363e;
-    }
+    color: #2F363E;
   }
+}
 
-  #main_content {
-    #container {
-      float: none;
-    }
-  paddng_bottom: 100px;
+#main_content {
+  #content {
+    float: none;
+  }
+  padding-bottom: 100px;
   .link {
     padding: 2em 1em;
     border-bottom: 1px solid #e9e9e9;
     .title {
 
-        a {
-          color: #ff45d0;
-        }
+      a {
+        color: #FF4500;
       }
     }
-    .comments_title {
-      margin-top: 2em;
-    }
-    #comments {
-      .comment {
-        padding: 1em 0;
-        border-top: 1px solid e9e9e9;
-        .lead {
-          margin-bottom: 0;
+  }
+  .comments_title {
+    margin-top: 2em;
+  }
+  #comments {
+    .comment {
+      padding: 1em 0;
+      border-top: 1px solid #E9E9E9;
+      .lead {
+        margin-bottom: 0;
       }
     }
   }
 }
-
